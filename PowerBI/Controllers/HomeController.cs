@@ -342,5 +342,9 @@ namespace PowerBI.Controllers
 
             return null;
         }
+        public ActionResult Index()
+        {
+            return View();
+        }
     }
 }
